@@ -1,0 +1,17 @@
+.sectionblack{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 250px;
+    width: 300px;
+}
+li{
+    list-style: none;
+}
+.HI{
+    position: absolute;
+    height: 40px;
+    top: 20px;
+    left: 175px;
+}
