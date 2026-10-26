@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+  background-color: #7474df;
+  padding: 22px 40px;
+  position: relative;
+  font-family: Georgia, serif;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  width: 220px;
+  background-color: #7474df;
+  padding: 12px 20px 24px;
+  border-radius: 0 0 45px 0;
+  z-index: 1000;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 4px 5px;
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  color: black;
+}
