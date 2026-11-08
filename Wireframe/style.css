@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.nav a {
+    margin-left: 20px;
+}
+
+.hero {
+    display: flex;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+}
+
+.hero-text button {
+    margin-right: 10px;
+}
+
+.hero-image {
+    width: 300px;
+    height: 300px;
+    background-color: #eee;
+    margin-left: 50px;
+}
+
+.section {
+    padding: 50px;
+}
+
+.section-gray {
+    background-color: #f5f5f5;
+    padding: 50px;
+}
+
+.section-title {
+    color: #888;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.project-card {
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+.project-image {
+    height: 200px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.project-details {
+    padding: 20px;
+}
+
+.github-button {
+    margin-top: 30px;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+
+.about-content {
+    display: flex;
+    margin-top: 30px;
+}
+
+.about-image {
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.contact-content {
+    display: flex;
+    margin-top: 30px;
+}
+
+.contact-text {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-group-checkbox {
+    margin-bottom: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-top: 1px solid #eee;
+}
+
+.footer div a {
+    margin-left: 20px;
+}
